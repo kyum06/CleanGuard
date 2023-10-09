@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "CleanGuard",
+    "description": "CleanGuard는 검색기록을 삭제합니다!",
+    "version": "1.0",
+    "permissions": [
+        "history",
+        "background"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
